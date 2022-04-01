@@ -156,7 +156,7 @@ export default function Map(props) {
       latitude: header.latitude,
       zoom: zoomMap ?? 14,
       pitch: pitchMap ?? 0,
-      bearing: 360 - header.rotation,
+      bearing: 270 - header.rotation,
       orthographic: true,
     })
   }
